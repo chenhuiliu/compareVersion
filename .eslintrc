@@ -1,0 +1,84 @@
+/*
+*规则文档 http://eslint.cn/docs/rules/
+*/
+
+{
+  parser: "babel-eslint",
+  extends: [
+    "eslint:recommended",
+    "vue"
+  ],
+  env: {
+    "browser": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "globals": {
+    'AJAXPATH': true,
+    "global": true,
+    '__dirname': true,
+    'webpack': true,
+    'TD': true
+  },
+  rules: {
+    "no-console": "off",
+    "no-mixed-spaces-and-tabs": "off",
+    "no-unreachable": "off",
+    "object-curly-spacing": "off",
+    "no-unused-vars": "off",
+    "quotes": "off",
+    "space-before-function-paren": "off",
+    "space-before-blocks": "off",
+    "spaced-comment": "off",
+    "eqeqeq": "off",
+    "key-spacing": "off",
+    "space-infix-ops": "off",
+    "keyword-spacing": "off",
+    "no-extra-boolean-cast": "off",
+    "semi-spacing": "off",
+    "comma-spacing": "off",
+    "no-multi-spaces": "off",
+    "arrow-spacing": "off",
+    "padded-blocks": "off",
+    "no-redeclare": "off",
+    "no-empty": "off",
+    "brace-style": "off",
+    "indent": "off",
+    "no-multiple-empty-lines": "off",
+    "comma-style": "off",
+    "comma-dangle": "off",
+    "new-cap": "off",
+    "one-var": "off",
+    "curly": "off",
+    "space-in-parens": "off",
+    "no-trailing-spaces": "off",
+    "block-spacing": "off",
+    "no-unneeded-ternary": "off",
+    "operator-linebreak": "off",
+    "template-curly-spacing": "off",
+    "prefer-const": "off",
+    "no-new-wrappers": "off",
+    "no-throw-literal": "off",
+    "new-parens": "off",
+    "semi": [
+      //要求使用分号
+      2,
+      "always"
+    ],
+    //驼峰
+    "camelcase": 2,
+    //    "valid-jsdoc": [
+    //      //规则文档 http://eslint.cn/docs/rules/valid-jsdoc
+    //      "error",
+    //      {
+    //        "prefer": {
+    //          "arg": "param",
+    //          "argument": "param",
+    //          "class": "constructor",
+    //          "return": "returns",
+    //          "virtual": "abstract"
+    //        }
+    //      }
+    //    ]
+  }
+}

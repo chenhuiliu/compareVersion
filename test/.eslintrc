@@ -1,0 +1,18 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "env": {
+    "mocha": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "globals": {
+  },
+  "rules": {
+    "no-multi-str": 0,
+    "object-curly-spacing": 0,
+    "array-bracket-spacing": 0
+  }
+}
